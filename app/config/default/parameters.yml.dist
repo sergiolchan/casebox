@@ -1,6 +1,6 @@
 parameters:
     core_name: default
-    locale: en
+    locale: es
     secret: ~
     server_name: ~
     prefix: cb
