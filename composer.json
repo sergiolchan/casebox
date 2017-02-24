@@ -1,5 +1,5 @@
 {
-  "name": "KETSE/casebox",
+  "name": "sergiolchan/casebox",
   "license": "AGPL",
   "type": "project",
   "config": {
@@ -34,6 +34,12 @@
     "sensio/framework-extra-bundle": "^3.0.2",
     "kwi/urllinker": "@dev"
   },
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sergiolchan/casebox-core"
+        }
+    ],  
   "require-dev": {
     "caseboxdev/core-bundle": "@dev",
     "caseboxdev/rpc-bundle": "@dev",
